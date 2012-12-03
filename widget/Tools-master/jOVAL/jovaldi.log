@@ -1,0 +1,21 @@
+
+----------------------------------------------------
+jOVAL Definition Interpreter
+Version: 5.10.1.0
+Build date: Sat Feb  4 08:53:41 CST 2012
+Copyright (c) 2011, 2012 - jOVAL.org
+
+Plugin: jOVALRemotePlugin by jOVAL.org(TM)
+Version: 5.10.1.0
+Copyright (C) 2011, 2012 - jOVAL.org
+----------------------------------------------------
+
+Start Time: Mon Dec 03 12:53:51 2012
+
+ ** parsing /home/steal/widget/Tools-master/zeusreport_stage/oval.xml
+     - validating xml schema.
+ ** checking schema version
+     - Schema version - 5.7
+ ** skipping Schematron validation
+ ** creating a new OVAL System Characteristics file.
+Plugin connecting

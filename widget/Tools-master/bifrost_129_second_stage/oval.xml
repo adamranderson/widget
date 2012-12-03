@@ -1,0 +1,274 @@
+<oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:oval-def="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows http://oval.mitre.org/language/version5.7/ovaldefinition/complete/windows-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5 http://oval.mitre.org/language/version5.7/ovaldefinition/complete/oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-common-5 http://oval.mitre.org/language/version5.7/ovaldefinition/complete/oval-common-schema.xsd">
+    <generator>
+        <oval:product_name>MAEC XML to OVAL Script</oval:product_name>
+        <oval:product_version>0.92</oval:product_version>
+        <oval:schema_version>5.7</oval:schema_version>
+        <oval:timestamp>2012-12-03T12:40:19.508731</oval:timestamp>
+    </generator>
+    <definitions>
+        <definition deprecated="false" version="1" id="oval:maec_to_oval:def:1" class="miscellaneous">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria operator="AND" negate="false">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:1"/>
+            </criteria>
+        </definition>
+        <definition deprecated="false" version="1" id="oval:maec_to_oval:def:2" class="miscellaneous">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria operator="AND" negate="false">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:2"/>
+            </criteria>
+        </definition>
+        <definition deprecated="false" version="1" id="oval:maec_to_oval:def:3" class="miscellaneous">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria operator="AND" negate="false">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:3"/>
+            </criteria>
+        </definition>
+        <definition deprecated="false" version="1" id="oval:maec_to_oval:def:4" class="miscellaneous">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria operator="AND" negate="false">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:4"/>
+            </criteria>
+        </definition>
+        <definition deprecated="false" version="1" id="oval:maec_to_oval:def:5" class="miscellaneous">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria operator="AND" negate="false">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:5"/>
+            </criteria>
+        </definition>
+        <definition deprecated="false" version="1" id="oval:maec_to_oval:def:6" class="miscellaneous">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria operator="AND" negate="false">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:6"/>
+            </criteria>
+        </definition>
+        <definition deprecated="false" version="1" id="oval:maec_to_oval:def:7" class="miscellaneous">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria operator="AND" negate="false">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:7"/>
+            </criteria>
+        </definition>
+        <definition deprecated="false" version="1" id="oval:maec_to_oval:def:8" class="miscellaneous">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria operator="AND" negate="false">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:8"/>
+            </criteria>
+        </definition>
+        <definition deprecated="false" version="1" id="oval:maec_to_oval:def:9" class="miscellaneous">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria operator="AND" negate="false">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:9"/>
+            </criteria>
+        </definition>
+        <definition deprecated="false" version="1" id="oval:maec_to_oval:def:10" class="miscellaneous">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria operator="AND" negate="false">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:10"/>
+            </criteria>
+        </definition>
+        <definition deprecated="false" version="1" id="oval:maec_to_oval:def:11" class="miscellaneous">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria operator="AND" negate="false">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:11"/>
+            </criteria>
+        </definition>
+        <definition deprecated="false" version="1" id="oval:maec_to_oval:def:12" class="miscellaneous">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria operator="AND" negate="false">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:12"/>
+            </criteria>
+        </definition>
+        <definition deprecated="false" version="1" id="oval:maec_to_oval:def:13" class="miscellaneous">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria operator="AND" negate="false">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:13"/>
+            </criteria>
+        </definition>
+        <definition deprecated="false" version="1" id="oval:maec_to_oval:def:14" class="miscellaneous">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria operator="AND" negate="false">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:14"/>
+            </criteria>
+        </definition>
+    </definitions>
+    <tests>
+        <win-def:file_test comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-27" state_operator="AND" check="at least one" version="1" id="oval:maec_to_oval:tst:1" check_existence="at_least_one_exists">
+            <win-def:object object_ref="oval:maec_to_oval:obj:1"/>
+        </win-def:file_test>
+        <win-def:file_test comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-28" state_operator="AND" check="at least one" version="1" id="oval:maec_to_oval:tst:2" check_existence="at_least_one_exists">
+            <win-def:object object_ref="oval:maec_to_oval:obj:2"/>
+        </win-def:file_test>
+        <win-def:file_test comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-31" state_operator="AND" check="at least one" version="1" id="oval:maec_to_oval:tst:3" check_existence="at_least_one_exists">
+            <win-def:object object_ref="oval:maec_to_oval:obj:3"/>
+        </win-def:file_test>
+        <win-def:file_test comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-50" state_operator="AND" check="at least one" version="1" id="oval:maec_to_oval:tst:4" check_existence="at_least_one_exists">
+            <win-def:object object_ref="oval:maec_to_oval:obj:4"/>
+        </win-def:file_test>
+        <win-def:file_test comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-55" state_operator="AND" check="at least one" version="1" id="oval:maec_to_oval:tst:5" check_existence="at_least_one_exists">
+            <win-def:object object_ref="oval:maec_to_oval:obj:5"/>
+        </win-def:file_test>
+        <win-def:registry_test comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-6" state_operator="AND" check="at least one" version="1" id="oval:maec_to_oval:tst:6" check_existence="at_least_one_exists">
+            <win-def:object object_ref="oval:maec_to_oval:obj:6"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:6"/>
+        </win-def:registry_test>
+        <win-def:registry_test comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-34" state_operator="AND" check="at least one" version="1" id="oval:maec_to_oval:tst:7" check_existence="at_least_one_exists">
+            <win-def:object object_ref="oval:maec_to_oval:obj:7"/>
+        </win-def:registry_test>
+        <win-def:registry_test comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-35" state_operator="AND" check="at least one" version="1" id="oval:maec_to_oval:tst:8" check_existence="at_least_one_exists">
+            <win-def:object object_ref="oval:maec_to_oval:obj:8"/>
+        </win-def:registry_test>
+        <win-def:registry_test comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-36" state_operator="AND" check="at least one" version="1" id="oval:maec_to_oval:tst:9" check_existence="at_least_one_exists">
+            <win-def:object object_ref="oval:maec_to_oval:obj:9"/>
+        </win-def:registry_test>
+        <win-def:registry_test comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-37" state_operator="AND" check="at least one" version="1" id="oval:maec_to_oval:tst:10" check_existence="at_least_one_exists">
+            <win-def:object object_ref="oval:maec_to_oval:obj:10"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:7"/>
+        </win-def:registry_test>
+        <win-def:registry_test comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-38" state_operator="AND" check="at least one" version="1" id="oval:maec_to_oval:tst:11" check_existence="at_least_one_exists">
+            <win-def:object object_ref="oval:maec_to_oval:obj:11"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:8"/>
+        </win-def:registry_test>
+        <win-def:registry_test comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-39" state_operator="AND" check="at least one" version="1" id="oval:maec_to_oval:tst:12" check_existence="at_least_one_exists">
+            <win-def:object object_ref="oval:maec_to_oval:obj:12"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:9"/>
+        </win-def:registry_test>
+        <win-def:registry_test comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-64" state_operator="AND" check="at least one" version="1" id="oval:maec_to_oval:tst:13" check_existence="at_least_one_exists">
+            <win-def:object object_ref="oval:maec_to_oval:obj:13"/>
+        </win-def:registry_test>
+        <win-def:registry_test comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-65" state_operator="AND" check="at least one" version="1" id="oval:maec_to_oval:tst:14" check_existence="at_least_one_exists">
+            <win-def:object object_ref="oval:maec_to_oval:obj:14"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:10"/>
+        </win-def:registry_test>
+    </tests>
+    <objects>
+        <win-def:file_object version="1" id="oval:maec_to_oval:obj:1">
+            <win-def:path datatype="string" mask="false">C:\Program Files\</win-def:path>
+            <win-def:filename datatype="string" mask="false">Bifrost</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object version="1" id="oval:maec_to_oval:obj:2">
+            <win-def:path datatype="string" mask="false">C:\Program Files\Bifrost\</win-def:path>
+            <win-def:filename datatype="string" mask="false">bifrost.exe</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object version="1" id="oval:maec_to_oval:obj:3">
+            <win-def:path datatype="string" mask="false">C:\Program Files\Bifrost\</win-def:path>
+            <win-def:filename datatype="string" mask="false">bifrost.exe</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object version="1" id="oval:maec_to_oval:obj:4">
+            <win-def:path datatype="string" mask="false">C:\Program Files\Bifrost\</win-def:path>
+            <win-def:filename datatype="string" mask="false">logg.dat</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object version="1" id="oval:maec_to_oval:obj:5">
+            <win-def:path datatype="string" mask="false">\Device\Afd\</win-def:path>
+            <win-def:filename datatype="string" mask="false">Endpoint</win-def:filename>
+        </win-def:file_object>
+        <win-def:registry_object version="1" id="oval:maec_to_oval:obj:6">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</win-def:key>
+            <win-def:name datatype="string" mask="false">AppData</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object version="1" id="oval:maec_to_oval:obj:7">
+            <win-def:hive datatype="string" mask="false">HKEY_LOCAL_MACHINE</win-def:hive>
+            <win-def:key datatype="string" mask="false">SOFTWARE\Microsoft\Active Setup\Installed Components\{770A02CC-CF79-EAE7-C0CF-4EE92AD016D3}</win-def:key>
+            <win-def:name xsi:nil="true"/>
+        </win-def:registry_object>
+        <win-def:registry_object version="1" id="oval:maec_to_oval:obj:8">
+            <win-def:hive datatype="string" mask="false">HKEY_LOCAL_MACHINE</win-def:hive>
+            <win-def:key datatype="string" mask="false">SOFTWARE\Bifrost</win-def:key>
+            <win-def:name xsi:nil="true"/>
+        </win-def:registry_object>
+        <win-def:registry_object version="1" id="oval:maec_to_oval:obj:9">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\SOFTWARE\Bifrost</win-def:key>
+            <win-def:name xsi:nil="true"/>
+        </win-def:registry_object>
+        <win-def:registry_object version="1" id="oval:maec_to_oval:obj:10">
+            <win-def:hive datatype="string" mask="false">HKEY_LOCAL_MACHINE</win-def:hive>
+            <win-def:key datatype="string" mask="false">SOFTWARE\Bifrost</win-def:key>
+            <win-def:name datatype="string" mask="false">nck</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object version="1" id="oval:maec_to_oval:obj:11">
+            <win-def:hive datatype="string" mask="false">HKEY_LOCAL_MACHINE</win-def:hive>
+            <win-def:key datatype="string" mask="false">SOFTWARE\Microsoft\Active Setup\Installed Components\{770A02CC-CF79-EAE7-C0CF-4EE92AD016D3}</win-def:key>
+            <win-def:name datatype="string" mask="false">stubpath</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object version="1" id="oval:maec_to_oval:obj:12">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\SOFTWARE\Bifrost</win-def:key>
+            <win-def:name datatype="string" mask="false">klg</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object version="1" id="oval:maec_to_oval:obj:13">
+            <win-def:hive datatype="string" mask="false">HKEY_LOCAL_MACHINE</win-def:hive>
+            <win-def:key datatype="string" mask="false">SYSTEM\CurrentControlSet\Control\MediaResources\msvideo</win-def:key>
+            <win-def:name xsi:nil="true"/>
+        </win-def:registry_object>
+        <win-def:registry_object version="1" id="oval:maec_to_oval:obj:14">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\SOFTWARE\Bifrost</win-def:key>
+            <win-def:name datatype="string" mask="false">klg</win-def:name>
+        </win-def:registry_object>
+    </objects>
+    <states>
+        <win-def:registry_state operator="AND" version="1" id="oval:maec_to_oval:ste:6">
+            <win-def:name datatype="string" mask="false">AppData</win-def:name>
+            <win-def:value datatype="string" mask="false">C:\Documents and Settings\Administrator\Application Data</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state operator="AND" version="1" id="oval:maec_to_oval:ste:7">
+            <win-def:name datatype="string" mask="false">nck</win-def:name>
+            <win-def:value datatype="string" mask="false">0xed1be627b928d63274c3cd74fa935b67</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state operator="AND" version="1" id="oval:maec_to_oval:ste:8">
+            <win-def:name datatype="string" mask="false">stubpath</win-def:name>
+            <win-def:value datatype="string" mask="false">C:\Program Files\Bifrost\bifrost.exe s</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state operator="AND" version="1" id="oval:maec_to_oval:ste:9">
+            <win-def:name datatype="string" mask="false">klg</win-def:name>
+            <win-def:value datatype="string" mask="false">0x01</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state operator="AND" version="1" id="oval:maec_to_oval:ste:10">
+            <win-def:name datatype="string" mask="false">klg</win-def:name>
+            <win-def:value datatype="string" mask="false">0x01</win-def:value>
+        </win-def:registry_state>
+    </states>
+</oval_definitions>

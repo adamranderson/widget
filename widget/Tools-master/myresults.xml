@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<oval_system_characteristics xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:oval-sc="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5" xmlns:win-sc="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5 oval-system-characteristics-schema.xsd http://oval.mitre.org/XMLSchema/oval-common-5 oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows windows-system-characteristics-schema.xsd">
+
+  <generator>
+    <oval:product_name>cpe:/a:mitre:ovaldi:5.10.1.1</oval:product_name>
+    <oval:product_version>5.10.1 Build: 1</oval:product_version>
+    <oval:schema_version>5.10.1</oval:schema_version>
+    <oval:timestamp>2012-11-26T19:33:13</oval:timestamp>
+    <vendor>The MITRE Corporation</vendor>
+  </generator>
+
+  <system_info>
+    <os_name>unknown Professional Service Pack 1</os_name>
+    <os_version>6.1.7601</os_version>
+    <architecture>INTEL32</architecture>
+    <primary_host_name>WIN-B3TC3R1JJ4H</primary_host_name>
+    <interfaces>
+      <interface>
+        <interface_name>Intel(R) PRO/1000 MT Network Connection</interface_name>
+        <ip_address>172.16.186.132</ip_address>
+        <mac_address>00-0C-29-04-A7-8B</mac_address>
+      </interface>
+    </interfaces>
+  </system_info>
+
+  <collected_objects>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:1" version="1">
+      <reference item_ref="1"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:10" version="1">
+      <reference item_ref="4"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:11" version="1">
+      <reference item_ref="5"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:12" version="1">
+      <reference item_ref="6"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:13" version="1">
+      <reference item_ref="6"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:14" version="1">
+      <reference item_ref="6"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:15" version="1">
+      <reference item_ref="4"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:16" version="1">
+      <reference item_ref="7"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:17" version="1">
+      <reference item_ref="7"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:18" version="1">
+      <reference item_ref="8"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:19" version="1">
+      <reference item_ref="8"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:2" version="1">
+      <reference item_ref="2"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:20" version="1">
+      <reference item_ref="9"/>
+    </object>
+    <object flag="complete" id="oval:maec_to_oval:obj:21" version="1">
+      <reference item_ref="10"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:22" version="1">
+      <reference item_ref="7"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:23" version="1">
+      <reference item_ref="9"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:24" version="1">
+      <reference item_ref="8"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:25" version="1">
+      <reference item_ref="8"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:26" version="1">
+      <reference item_ref="11"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:27" version="1">
+      <reference item_ref="12"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:28" version="1">
+      <reference item_ref="12"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:29" version="1">
+      <reference item_ref="13"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:3" version="1">
+      <reference item_ref="3"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:30" version="1">
+      <reference item_ref="14"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:31" version="1">
+      <reference item_ref="14"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:32" version="1">
+      <reference item_ref="15"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:33" version="1">
+      <reference item_ref="15"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:34" version="1">
+      <reference item_ref="16"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:35" version="1">
+      <reference item_ref="17"/>
+    </object>
+    <object flag="complete" id="oval:maec_to_oval:obj:36" version="1">
+      <reference item_ref="10"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:37" version="1">
+      <reference item_ref="7"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:38" version="1">
+      <reference item_ref="8"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:39" version="1">
+      <reference item_ref="18"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:4" version="1">
+      <reference item_ref="2"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:40" version="1">
+      <reference item_ref="18"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:41" version="1">
+      <reference item_ref="19"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:42" version="1">
+      <reference item_ref="19"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:43" version="1">
+      <reference item_ref="7"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:44" version="1">
+      <reference item_ref="7"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:45" version="1">
+      <reference item_ref="7"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:46" version="1">
+      <reference item_ref="7"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:47" version="1">
+      <reference item_ref="7"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:48" version="1">
+      <reference item_ref="7"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:5" version="1">
+      <reference item_ref="4"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:6" version="1">
+      <reference item_ref="1"/>
+    </object>
+    <object flag="does not exist" id="oval:maec_to_oval:obj:7" version="1">
+      <reference item_ref="3"/>
+    </object>
+  </collected_objects>
+
+  <system_data>
+    <file_item id="1" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <path status="does not exist">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\</path>
+    </file_item>
+    <file_item id="4" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <path status="does not exist">C:\Documents and Settings\Administrator\Application Data\Teeml\</path>
+    </file_item>
+    <file_item id="5" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <path status="does not exist">\Device\Afd\</path>
+    </file_item>
+    <file_item id="6" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <path status="does not exist">\Device\</path>
+    </file_item>
+    <registry_item id="7" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <hive>HKEY_USERS</hive>
+      <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\SOFTWARE\Microsoft\Zopocy</key>
+    </registry_item>
+    <registry_item id="8" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <hive>HKEY_USERS</hive>
+      <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</key>
+    </registry_item>
+    <file_item id="2" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <path status="does not exist">C:\Documents and Settings\Administrator\Application Data\</path>
+    </file_item>
+    <registry_item id="9" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <hive>HKEY_USERS</hive>
+      <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Internet Explorer\Privacy</key>
+    </registry_item>
+    <registry_item id="10" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <hive>HKEY_LOCAL_MACHINE</hive>
+      <key>Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</key>
+      <name>Common AppData</name>
+      <type>reg_sz</type>
+      <value>C:\ProgramData</value>
+    </registry_item>
+    <registry_item id="11" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <hive>HKEY_USERS</hive>
+      <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\0</key>
+    </registry_item>
+    <registry_item id="12" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <hive>HKEY_USERS</hive>
+      <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1</key>
+    </registry_item>
+    <registry_item id="13" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <hive>HKEY_USERS</hive>
+      <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2</key>
+    </registry_item>
+    <file_item id="3" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <path status="does not exist">C:\Documents and Settings\Administrator\Application Data\Ixxoq\</path>
+    </file_item>
+    <registry_item id="14" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <hive>HKEY_USERS</hive>
+      <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3</key>
+    </registry_item>
+    <registry_item id="15" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <hive>HKEY_USERS</hive>
+      <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4</key>
+    </registry_item>
+    <registry_item id="16" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <hive>HKEY_USERS</hive>
+      <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\Currentversion\Run</key>
+    </registry_item>
+    <registry_item id="17" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <hive>HKEY_LOCAL_MACHINE</hive>
+      <key status="does not exist">SYSTEM\CURRENTCONTROLSET\HARDWARE PROFILES\CURRENT\Software\Microsoft\windows\CurrentVersion\Internet Settings</key>
+    </registry_item>
+    <registry_item id="18" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <hive>HKEY_USERS</hive>
+      <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\windows\CurrentVersion\Internet Settings</key>
+    </registry_item>
+    <registry_item id="19" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+      <hive>HKEY_USERS</hive>
+      <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\windows\CurrentVersion\Internet Settings\Connections</key>
+    </registry_item>
+  </system_data>
+
+</oval_system_characteristics>

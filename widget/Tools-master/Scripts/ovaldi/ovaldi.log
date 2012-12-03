@@ -1,0 +1,156 @@
+
+----------------------------------------------------
+OVAL Definition Interpreter
+Version: 5.10.1 Build: 1
+Build date: Jan 27 2012 19:01:41
+Copyright (c) 2002-2012 - The MITRE Corporation
+----------------------------------------------------
+
+Start Time: Thu Nov 15 16:19:08 2012
+
+
+2012-11-15T16:19:08 : INFO : Warning: you are running the interpreter as a 32-bit process on 64-bit Windows.  Be aware that you may get different results as compared to a 64-bit process.
+ ** parsing zeus_OVAL.xml file.
+    - validating xml schema.
+
+ ** checking schema version
+     - Schema version - 5.7
+
+ ** skipping Schematron validation
+
+ ** creating a new OVAL System Characteristics file.
+
+ ** gathering data for the OVAL definitions.
+
+2012-11-15T16:19:08 : MESSAGE : Error: Unable to enable SE_BACKUP_NAME privilege.
+2012-11-15T16:19:09 : MESSAGE : Error: Unable to enable SE_BACKUP_NAME privilege.
+2012-11-15T16:19:09 : MESSAGE : Error: Unable to enable SE_BACKUP_NAME privilege.
+2012-11-15T16:19:09 : MESSAGE : Error: Unable to enable SE_BACKUP_NAME privilege.
+2012-11-15T16:19:09 : MESSAGE : Error: Unable to enable SE_BACKUP_NAME privilege.
+2012-11-15T16:19:09 : MESSAGE : Error: Unable to enable SE_BACKUP_NAME privilege.
+2012-11-15T16:19:09 : MESSAGE : Error: Unable to enable SE_BACKUP_NAME privilege.
+2012-11-15T16:19:09 : MESSAGE : Error: Unable to enable SE_BACKUP_NAME privilege.
+2012-11-15T16:19:09 : MESSAGE : Error: Unable to enable SE_BACKUP_NAME privilege.
+2012-11-15T16:19:09 : MESSAGE : Error: Unable to enable SE_BACKUP_NAME privilege.
+2012-11-15T16:19:09 : MESSAGE : Error: Unable to enable SE_BACKUP_NAME privilege.
+2012-11-15T16:19:09 : MESSAGE : Error: Unable to enable SE_BACKUP_NAME privilege.
+2012-11-15T16:19:09 : MESSAGE : Error: Unable to enable SE_BACKUP_NAME privilege.
+ ** saving data model to system-characteristics.xml.
+
+ ** running the OVAL Definition analysis.
+
+ ** applying directives to OVAL results.
+
+ ** OVAL definition results.
+
+
+    OVAL Id                                 Result
+
+    -------------------------------------------------------
+
+    oval:maec_to_oval:def:1                 false          
+
+    oval:maec_to_oval:def:2                 false          
+
+    oval:maec_to_oval:def:3                 false          
+
+    oval:maec_to_oval:def:4                 false          
+
+    oval:maec_to_oval:def:5                 false          
+
+    oval:maec_to_oval:def:6                 false          
+
+    oval:maec_to_oval:def:7                 false          
+
+    oval:maec_to_oval:def:8                 false          
+
+    oval:maec_to_oval:def:9                 false          
+
+    oval:maec_to_oval:def:10                false          
+
+    oval:maec_to_oval:def:11                false          
+
+    oval:maec_to_oval:def:12                false          
+
+    oval:maec_to_oval:def:13                false          
+
+    oval:maec_to_oval:def:14                false          
+
+    oval:maec_to_oval:def:15                false          
+
+    oval:maec_to_oval:def:16                false          
+
+    oval:maec_to_oval:def:17                false          
+
+    oval:maec_to_oval:def:18                false          
+
+    oval:maec_to_oval:def:19                false          
+
+    oval:maec_to_oval:def:20                false          
+
+    oval:maec_to_oval:def:21                false          
+
+    oval:maec_to_oval:def:22                false          
+
+    oval:maec_to_oval:def:23                false          
+
+    oval:maec_to_oval:def:24                false          
+
+    oval:maec_to_oval:def:25                false          
+
+    oval:maec_to_oval:def:26                false          
+
+    oval:maec_to_oval:def:27                false          
+
+    oval:maec_to_oval:def:28                false          
+
+    oval:maec_to_oval:def:29                false          
+
+    oval:maec_to_oval:def:30                false          
+
+    oval:maec_to_oval:def:31                false          
+
+    oval:maec_to_oval:def:32                false          
+
+    oval:maec_to_oval:def:33                false          
+
+    oval:maec_to_oval:def:34                false          
+
+    oval:maec_to_oval:def:35                false          
+
+    oval:maec_to_oval:def:36                false          
+
+    oval:maec_to_oval:def:37                false          
+
+    oval:maec_to_oval:def:38                false          
+
+    oval:maec_to_oval:def:39                false          
+
+    oval:maec_to_oval:def:40                false          
+
+    oval:maec_to_oval:def:41                false          
+
+    oval:maec_to_oval:def:42                false          
+
+    oval:maec_to_oval:def:43                false          
+
+    oval:maec_to_oval:def:44                false          
+
+    oval:maec_to_oval:def:45                false          
+
+    oval:maec_to_oval:def:46                false          
+
+    -------------------------------------------------------
+
+
+
+ ** finished evaluating OVAL definitions.
+
+
+ ** saving OVAL results to results.xml.
+
+ ** running OVAL Results xsl: xml\results_to_html.xsl.
+
+
+----------------------------------------------------
+

@@ -1,0 +1,46 @@
+<oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:oval-def="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows http://oval.mitre.org/language/version5.7/ovaldefinition/complete/windows-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5 http://oval.mitre.org/language/version5.7/ovaldefinition/complete/oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-common-5 http://oval.mitre.org/language/version5.7/ovaldefinition/complete/oval-common-schema.xsd">
+    <generator>
+        <oval:product_name>MAEC XML to OVAL Script</oval:product_name>
+        <oval:product_version>0.92</oval:product_version>
+        <oval:schema_version>5.7</oval:schema_version>
+        <oval:timestamp>2012-12-03T02:59:35.227985</oval:timestamp>
+    </generator>
+    <definitions>
+        <definition deprecated="false" version="1" id="oval:maec_to_oval:def:1" class="miscellaneous">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria operator="AND" negate="false">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:1"/>
+            </criteria>
+        </definition>
+        <definition deprecated="false" version="1" id="oval:maec_to_oval:def:2" class="miscellaneous">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria operator="AND" negate="false">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:2"/>
+            </criteria>
+        </definition>
+    </definitions>
+    <tests>
+        <win-def:file_test comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-1" state_operator="AND" check="at least one" version="1" id="oval:maec_to_oval:tst:1" check_existence="at_least_one_exists">
+            <win-def:object object_ref="oval:maec_to_oval:obj:1"/>
+        </win-def:file_test>
+        <win-def:file_test comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-2" state_operator="AND" check="at least one" version="1" id="oval:maec_to_oval:tst:2" check_existence="at_least_one_exists">
+            <win-def:object object_ref="oval:maec_to_oval:obj:2"/>
+        </win-def:file_test>
+    </tests>
+    <objects>
+        <win-def:file_object version="1" id="oval:maec_to_oval:obj:1">
+            <win-def:path datatype="string" mask="false">C:\Windows\</win-def:path>
+            <win-def:filename datatype="string" mask="false">demohack.exe</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object version="1" id="oval:maec_to_oval:obj:2">
+            <win-def:path datatype="string" mask="false">C:\Windows\</win-def:path>
+            <win-def:filename datatype="string" mask="false">demohack.exe</win-def:filename>
+        </win-def:file_object>
+    </objects>
+</oval_definitions>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<analysis>
+  <report_version>
+	  <major>3</major>
+		<minor>2</minor>
+	</report_version>
+	<configuration>
+	  <time_needed>67 s</time_needed>
+		<report_created>11/29/12, 05:43:26 UTC</report_created>
+		<termination_reason>All tracked processes have exited</termination_reason>
+		<ttanalyze_version>
+		  <prog_version>1.76.3886</prog_version>
+			<svn_revision>$Revision: 3914 $</svn_revision>
+			<build_date>May 14 2012 20:16:24</build_date>
+		</ttanalyze_version>
+	</configuration>
+	<summary>
+	  <auto_start>false</auto_start>
+		<internet_settings>false</internet_settings>
+		<bho>false</bho>
+		<win_dir_copy>true</win_dir_copy>
+		<av_kill>false</av_kill>
+		<com_object>false</com_object>
+		<dlf>false</dlf>
+		<ircbot>false</ircbot>
+		<spambot>false</spambot>
+		<addressscan>false</addressscan>
+		<portscan>false</portscan>
+		<file_modification_destruction>false</file_modification_destruction>
+		<process_spawn>false</process_spawn>
+		<all_reg_activities>false</all_reg_activities>
+		<write_to_foreign_mem_area>false</write_to_foreign_mem_area>
+		<install_service>false</install_service>
+		<load_driver>false</load_driver>
+		<install_ie_toolbar>false</install_ie_toolbar>
+		<disable_win_update>false</disable_win_update>
+		<change_win_firewall_settings>false</change_win_firewall_settings>
+		<harvesting_emails>false</harvesting_emails>
+		<mod_sys_files>true</mod_sys_files>
+		<modify_files_only_in_user_dir>false</modify_files_only_in_user_dir>
+		<packed_binary>false</packed_binary>
+		<av_hit>false</av_hit>
+		<crash>false</crash>
+		<autorun>false</autorun>
+		<severity_level>2</severity_level>
+	</summary>
+	<analysis_subject>
+	  <general>
+		  <id>2</id>
+			<parent_id>1</parent_id>
+			<analysis_reason>Primary Analysis Subject</analysis_reason>
+			<submission_fn>demohack.exe</submission_fn>
+			<virtual_fn>demohack.e.exe</virtual_fn>
+			<virtual_path>C:\demohack.e.exe</virtual_path>
+			<arguments>"C:\demohack.e.exe"</arguments>
+			<status>dead</status>
+			<exit_code>0</exit_code>
+			<md5>ef5b328f0441810cc7b4d0e5148f9c52</md5>
+			<sha1>863ede4c639af9e3ddc7d34e13e0be4b3f62ace0</sha1>
+			<file_size>19968</file_size>
+		</general>
+		<dll_dependencies>
+		  <loaded_dll base_address="0x7C900000" base_name="ntdll.dll" full_name="C:\WINDOWS\system32\ntdll.dll" is_load_time_dependency="1" load_time="1" size="0x000AF000"/>
+			<loaded_dll base_address="0x7C800000" base_name="kernel32.dll" full_name="C:\WINDOWS\system32\kernel32.dll" is_load_time_dependency="1" load_time="1" size="0x000F6000"/>
+			<loaded_dll base_address="0x78050000" base_name="MSVCP100.dll" full_name="C:\WINDOWS\system32\MSVCP100.dll" is_load_time_dependency="1" load_time="1" size="0x00069000"/>
+			<loaded_dll base_address="0x78AA0000" base_name="MSVCR100.dll" full_name="C:\WINDOWS\system32\MSVCR100.dll" is_load_time_dependency="1" load_time="1" size="0x000BE000"/>
+		</dll_dependencies>
+		<program_output>
+		  <stdout>Done
+</stdout>
+		</program_output>
+		<activities>
+		  <registry_activities>
+			  <reg_value_read count="1" key="HKLM\Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers" value_data="1" value_name="TransparentEnabled"/>
+			</registry_activities>
+			<file_activities>
+			  <file_created name="C:\Windows\demohack.exe"/>
+				<file_modified name="C:\Windows\demohack.exe"/>
+				<section_object_created file_name="C:\WINDOWS\system32\MSVCP100.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\MSVCR100.dll" section_name=""/>
+				<fs_control_communication control_code="0x00090028" count="1" file="C:\Program Files\Common Files\"/>
+			</file_activities>
+		</activities>
+	</analysis_subject>
+	<global_file_info>
+	  <global_file info="ASCII English text, with CRLF line terminators" md5="3b87312e4ca4f83dbe8dbf54eda8c1f2" mimetype="text/plain charset=us-ascii" name="demohack.exe" sha1="9190e39f0c51e33c207b3fafde8fafbed37b209a"/>
+	</global_file_info>
+</analysis>

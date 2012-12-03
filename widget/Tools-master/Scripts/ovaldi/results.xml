@@ -1,0 +1,1574 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<oval_results xmlns="http://oval.mitre.org/XMLSchema/oval-results-5" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:oval-def="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:oval-res="http://oval.mitre.org/XMLSchema/oval-results-5" xmlns:oval-sc="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5" xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-common-5 oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-system-characteristics-5 oval-system-characteristics-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5 oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-results-5 oval-results-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#windows http://oval.mitre.org/language/version5.7/ovaldefinition/complete/windows-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5 http://oval.mitre.org/language/version5.7/ovaldefinition/complete/oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-common-5 http://oval.mitre.org/language/version5.7/ovaldefinition/complete/oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows windows-system-characteristics-schema.xsd">
+
+  <generator>
+    <oval:product_name>cpe:/a:mitre:ovaldi:5.10.1.1</oval:product_name>
+    <oval:product_version>5.10.1 Build: 1</oval:product_version>
+    <oval:schema_version>5.10.1</oval:schema_version>
+    <oval:timestamp>2012-11-15T16:19:09</oval:timestamp>
+    <vendor>The MITRE Corporation</vendor>
+  </generator>
+
+  <directives include_source_definitions="true">
+    <definition_true content="full" reported="true"/>
+    <definition_false content="full" reported="true"/>
+    <definition_unknown content="full" reported="true"/>
+    <definition_error content="full" reported="true"/>
+    <definition_not_evaluated content="full" reported="true"/>
+    <definition_not_applicable content="full" reported="true"/>
+  </directives>
+
+  <oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5">
+    <generator>
+        <oval:product_name xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5">MAEC XML to OVAL Script</oval:product_name>
+        <oval:product_version xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5">0.92</oval:product_version>
+        <oval:schema_version xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5">5.7</oval:schema_version>
+        <oval:timestamp xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5">2012-11-15T12:25:07.242987</oval:timestamp>
+    </generator>
+    <definitions>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:1" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:1"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:2" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:2"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:3" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:3"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:4" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:4"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:5" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:5"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:6" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:6"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:7" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:7"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:8" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:8"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:9" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:9"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:10" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:10"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:11" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:11"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:12" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:12"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:13" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:13"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:14" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:14"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:15" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:15"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:16" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:16"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:17" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:17"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:18" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:18"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:19" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:19"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:20" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:20"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:21" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:21"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:22" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:22"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:23" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:23"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:24" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:24"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:25" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:25"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:26" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:26"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:27" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:27"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:28" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:28"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:29" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:29"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:30" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:30"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:31" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:31"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:32" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:32"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:33" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:33"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:34" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:34"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:35" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:35"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:36" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:36"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:37" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:37"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:38" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:38"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:39" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:39"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:40" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:40"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:41" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:41"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:42" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:42"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:43" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:43"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:44" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:44"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:45" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:45"/>
+            </criteria>
+        </definition>
+        <definition class="miscellaneous" deprecated="false" id="oval:maec_to_oval:def:46" version="1">
+            <metadata>
+                <title>Object check</title>
+                <description>Existence check for object(s) extracted from MAEC Action</description>
+            </metadata>
+            <criteria negate="false" operator="AND">
+                <criterion negate="false" test_ref="oval:maec_to_oval:tst:46"/>
+            </criteria>
+        </definition>
+    </definitions>
+    <tests>
+        <win-def:file_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-1" id="oval:maec_to_oval:tst:1" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:1"/>
+        </win-def:file_test>
+        <win-def:file_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-2" id="oval:maec_to_oval:tst:2" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:2"/>
+        </win-def:file_test>
+        <win-def:file_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-3" id="oval:maec_to_oval:tst:3" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:3"/>
+        </win-def:file_test>
+        <win-def:file_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-4" id="oval:maec_to_oval:tst:4" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:4"/>
+        </win-def:file_test>
+        <win-def:file_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-5" id="oval:maec_to_oval:tst:5" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:5"/>
+        </win-def:file_test>
+        <win-def:file_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-8" id="oval:maec_to_oval:tst:6" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:6"/>
+        </win-def:file_test>
+        <win-def:file_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-9" id="oval:maec_to_oval:tst:7" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:7"/>
+        </win-def:file_test>
+        <win-def:file_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-204" id="oval:maec_to_oval:tst:8" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:10"/>
+        </win-def:file_test>
+        <win-def:file_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-321" id="oval:maec_to_oval:tst:9" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:11"/>
+        </win-def:file_test>
+        <win-def:file_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-322" id="oval:maec_to_oval:tst:10" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:12"/>
+        </win-def:file_test>
+        <win-def:file_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-323" id="oval:maec_to_oval:tst:11" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:13"/>
+        </win-def:file_test>
+        <win-def:file_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-324" id="oval:maec_to_oval:tst:12" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:14"/>
+        </win-def:file_test>
+        <win-def:file_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-344" id="oval:maec_to_oval:tst:13" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:15"/>
+        </win-def:file_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-16" id="oval:maec_to_oval:tst:14" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:16"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-17" id="oval:maec_to_oval:tst:15" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:17"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:14"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-18" id="oval:maec_to_oval:tst:16" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:18"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:15"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-136" id="oval:maec_to_oval:tst:17" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:19"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:16"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-207" id="oval:maec_to_oval:tst:18" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:20"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-208" id="oval:maec_to_oval:tst:19" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:21"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:17"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-209" id="oval:maec_to_oval:tst:20" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:22"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:18"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-210" id="oval:maec_to_oval:tst:21" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:23"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:19"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-211" id="oval:maec_to_oval:tst:22" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:24"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:20"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-212" id="oval:maec_to_oval:tst:23" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:25"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:21"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-213" id="oval:maec_to_oval:tst:24" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:26"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:22"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-214" id="oval:maec_to_oval:tst:25" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:27"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:23"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-215" id="oval:maec_to_oval:tst:26" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:28"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:24"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-216" id="oval:maec_to_oval:tst:27" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:29"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:25"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-217" id="oval:maec_to_oval:tst:28" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:30"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:26"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-218" id="oval:maec_to_oval:tst:29" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:31"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:27"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-219" id="oval:maec_to_oval:tst:30" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:32"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:28"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-220" id="oval:maec_to_oval:tst:31" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:33"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:29"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-221" id="oval:maec_to_oval:tst:32" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:34"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:30"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-345" id="oval:maec_to_oval:tst:33" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:35"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:31"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-346" id="oval:maec_to_oval:tst:34" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:36"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:32"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-347" id="oval:maec_to_oval:tst:35" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:37"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:33"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-348" id="oval:maec_to_oval:tst:36" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:38"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:34"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-349" id="oval:maec_to_oval:tst:37" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:39"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:35"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-350" id="oval:maec_to_oval:tst:38" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:40"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:36"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-351" id="oval:maec_to_oval:tst:39" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:41"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:37"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-352" id="oval:maec_to_oval:tst:40" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:42"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:38"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-510" id="oval:maec_to_oval:tst:41" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:43"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:39"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-569" id="oval:maec_to_oval:tst:42" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:44"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:40"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-638" id="oval:maec_to_oval:tst:43" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:45"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:41"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-696" id="oval:maec_to_oval:tst:44" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:46"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:42"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-755" id="oval:maec_to_oval:tst:45" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:47"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:43"/>
+        </win-def:registry_test>
+        <win-def:registry_test xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" check="at least one" check_existence="at_least_one_exists" comment="OVAL Test created from MAEC Action maec-anubis_to_maec-act-816" id="oval:maec_to_oval:tst:46" state_operator="AND" version="1">
+            <win-def:object object_ref="oval:maec_to_oval:obj:48"/>
+            <win-def:state state_ref="oval:maec_to_oval:ste:44"/>
+        </win-def:registry_test>
+    </tests>
+    <objects>
+        <win-def:file_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:1" version="1">
+            <win-def:path datatype="string" mask="false">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\</win-def:path>
+            <win-def:filename datatype="string" mask="false">tmp52bdc57f.bat</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:2" version="1">
+            <win-def:path datatype="string" mask="false">C:\Documents and Settings\Administrator\Application Data\</win-def:path>
+            <win-def:filename datatype="string" mask="false">Ixxoq</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:3" version="1">
+            <win-def:path datatype="string" mask="false">C:\Documents and Settings\Administrator\Application Data\Ixxoq\</win-def:path>
+            <win-def:filename datatype="string" mask="false">ahgou.exe</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:4" version="1">
+            <win-def:path datatype="string" mask="false">C:\Documents and Settings\Administrator\Application Data\</win-def:path>
+            <win-def:filename datatype="string" mask="false">Teeml</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:5" version="1">
+            <win-def:path datatype="string" mask="false">C:\Documents and Settings\Administrator\Application Data\Teeml\</win-def:path>
+            <win-def:filename datatype="string" mask="false">diamp.ene</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:6" version="1">
+            <win-def:path datatype="string" mask="false">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\</win-def:path>
+            <win-def:filename datatype="string" mask="false">tmp52bdc57f.bat</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:7" version="1">
+            <win-def:path datatype="string" mask="false">C:\Documents and Settings\Administrator\Application Data\Ixxoq\</win-def:path>
+            <win-def:filename datatype="string" mask="false">ahgou.exe</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:10" version="1">
+            <win-def:path datatype="string" mask="false">C:\Documents and Settings\Administrator\Application Data\Teeml\</win-def:path>
+            <win-def:filename datatype="string" mask="false">diamp.ene</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:11" version="1">
+            <win-def:path datatype="string" mask="false">\Device\Afd\</win-def:path>
+            <win-def:filename datatype="string" mask="false">Endpoint</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:12" version="1">
+            <win-def:path datatype="string" mask="false">\Device\</win-def:path>
+            <win-def:filename datatype="string" mask="false">NetBT_Tcpip_{1AD45B38-4060-4F73-BB1E-A0439A2D97EB}</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:13" version="1">
+            <win-def:path datatype="string" mask="false">\Device\</win-def:path>
+            <win-def:filename datatype="string" mask="false">RasAcd</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:14" version="1">
+            <win-def:path datatype="string" mask="false">\Device\</win-def:path>
+            <win-def:filename datatype="string" mask="false">Tcp</win-def:filename>
+        </win-def:file_object>
+        <win-def:file_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:15" version="1">
+            <win-def:path datatype="string" mask="false">C:\Documents and Settings\Administrator\Application Data\Teeml\</win-def:path>
+            <win-def:filename datatype="string" mask="false">diamp.ene</win-def:filename>
+        </win-def:file_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:16" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\SOFTWARE\Microsoft\Zopocy</win-def:key>
+            <win-def:name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:17" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\SOFTWARE\Microsoft\Zopocy</win-def:key>
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:18" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</win-def:key>
+            <win-def:name datatype="string" mask="false">AppData</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:19" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</win-def:key>
+            <win-def:name datatype="string" mask="false">AppData</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:20" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Internet Explorer\Privacy</win-def:key>
+            <win-def:name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:21" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_LOCAL_MACHINE</win-def:hive>
+            <win-def:key datatype="string" mask="false">Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</win-def:key>
+            <win-def:name datatype="string" mask="false">Common AppData</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:22" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\SOFTWARE\Microsoft\Zopocy</win-def:key>
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:23" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Internet Explorer\Privacy</win-def:key>
+            <win-def:name datatype="string" mask="false">CleanCookies</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:24" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</win-def:key>
+            <win-def:name datatype="string" mask="false">AppData</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:25" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</win-def:key>
+            <win-def:name datatype="string" mask="false">Cookies</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:26" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\0</win-def:key>
+            <win-def:name datatype="string" mask="false">1609</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:27" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1</win-def:key>
+            <win-def:name datatype="string" mask="false">1406</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:28" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1</win-def:key>
+            <win-def:name datatype="string" mask="false">1609</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:29" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2</win-def:key>
+            <win-def:name datatype="string" mask="false">1609</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:30" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3</win-def:key>
+            <win-def:name datatype="string" mask="false">1406</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:31" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3</win-def:key>
+            <win-def:name datatype="string" mask="false">1609</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:32" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4</win-def:key>
+            <win-def:name datatype="string" mask="false">1406</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:33" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4</win-def:key>
+            <win-def:name datatype="string" mask="false">1609</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:34" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\Currentversion\Run</win-def:key>
+            <win-def:name datatype="string" mask="false">{B14FCDC7-777C-B391-BE52-E3968551672A}</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:35" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_LOCAL_MACHINE</win-def:hive>
+            <win-def:key datatype="string" mask="false">SYSTEM\CURRENTCONTROLSET\HARDWARE PROFILES\CURRENT\Software\Microsoft\windows\CurrentVersion\Internet Settings</win-def:key>
+            <win-def:name datatype="string" mask="false">ProxyEnable</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:36" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_LOCAL_MACHINE</win-def:hive>
+            <win-def:key datatype="string" mask="false">Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</win-def:key>
+            <win-def:name datatype="string" mask="false">Common AppData</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:37" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\SOFTWARE\Microsoft\Zopocy</win-def:key>
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:38" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</win-def:key>
+            <win-def:name datatype="string" mask="false">AppData</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:39" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\windows\CurrentVersion\Internet Settings</win-def:key>
+            <win-def:name datatype="string" mask="false">MigrateProxy</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:40" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\windows\CurrentVersion\Internet Settings</win-def:key>
+            <win-def:name datatype="string" mask="false">ProxyEnable</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:41" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\windows\CurrentVersion\Internet Settings\Connections</win-def:key>
+            <win-def:name datatype="string" mask="false">DefaultConnectionSettings</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:42" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\windows\CurrentVersion\Internet Settings\Connections</win-def:key>
+            <win-def:name datatype="string" mask="false">SavedLegacySettings</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:43" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\SOFTWARE\Microsoft\Zopocy</win-def:key>
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:44" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\SOFTWARE\Microsoft\Zopocy</win-def:key>
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:45" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\SOFTWARE\Microsoft\Zopocy</win-def:key>
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:46" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\SOFTWARE\Microsoft\Zopocy</win-def:key>
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:47" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\SOFTWARE\Microsoft\Zopocy</win-def:key>
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+        </win-def:registry_object>
+        <win-def:registry_object xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:obj:48" version="1">
+            <win-def:hive datatype="string" mask="false">HKEY_USERS</win-def:hive>
+            <win-def:key datatype="string" mask="false">S-1-5-21-842925246-1425521274-308236825-500\SOFTWARE\Microsoft\Zopocy</win-def:key>
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+        </win-def:registry_object>
+    </objects>
+    <states>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:14" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+            <win-def:value datatype="string" mask="false">0xd3999cfe1575b14ae86a44449b28dd9378afb693be382604fad358b201b3</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:15" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">AppData</win-def:name>
+            <win-def:value datatype="string" mask="false">C:\Documents and Settings\Administrator\Application Data</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:16" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">AppData</win-def:name>
+            <win-def:value datatype="string" mask="false">C:\Documents and Settings\Administrator\Application Data</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:17" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">Common AppData</win-def:name>
+            <win-def:value datatype="string" mask="false">C:\Documents and Settings\All Users\Application Data</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:18" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+            <win-def:value datatype="string" mask="false">0xd3999cfe1575b14ae86a44449b28dd9378afb693be382604fad358b201b3</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:19" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">CleanCookies</win-def:name>
+            <win-def:value datatype="string" mask="false">0</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:20" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">AppData</win-def:name>
+            <win-def:value datatype="string" mask="false">C:\Documents and Settings\Administrator\Application Data</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:21" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">Cookies</win-def:name>
+            <win-def:value datatype="string" mask="false">C:\Documents and Settings\Administrator\Cookies</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:22" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">1609</win-def:name>
+            <win-def:value datatype="string" mask="false">0</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:23" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">1406</win-def:name>
+            <win-def:value datatype="string" mask="false">0</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:24" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">1609</win-def:name>
+            <win-def:value datatype="string" mask="false">0</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:25" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">1609</win-def:name>
+            <win-def:value datatype="string" mask="false">0</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:26" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">1406</win-def:name>
+            <win-def:value datatype="string" mask="false">0</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:27" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">1609</win-def:name>
+            <win-def:value datatype="string" mask="false">0</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:28" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">1406</win-def:name>
+            <win-def:value datatype="string" mask="false">0</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:29" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">1609</win-def:name>
+            <win-def:value datatype="string" mask="false">0</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:30" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">{B14FCDC7-777C-B391-BE52-E3968551672A}</win-def:name>
+            <win-def:value datatype="string" mask="false">"C:\Documents and Settings\Administrator\Application Data\Ixxoq\ahgou.exe"</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:31" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">ProxyEnable</win-def:name>
+            <win-def:value datatype="string" mask="false">0</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:32" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">Common AppData</win-def:name>
+            <win-def:value datatype="string" mask="false">C:\Documents and Settings\All Users\Application Data</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:33" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+            <win-def:value datatype="string" mask="false">0xd3999cfe1575b14ae86a44449b28dd9378afb693be382604fad358b201b3</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:34" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">AppData</win-def:name>
+            <win-def:value datatype="string" mask="false">C:\Documents and Settings\Administrator\Application Data</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:35" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">MigrateProxy</win-def:name>
+            <win-def:value datatype="string" mask="false">1</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:36" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">ProxyEnable</win-def:name>
+            <win-def:value datatype="string" mask="false">0</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:37" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">DefaultConnectionSettings</win-def:name>
+            <win-def:value datatype="string" mask="false">0x3c0000000300000001000000000000000000000000000000040000000000</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:38" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">SavedLegacySettings</win-def:name>
+            <win-def:value datatype="string" mask="false">0x3c0000000500000009000000000000000000000000000000000000000000</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:39" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+            <win-def:value datatype="string" mask="false">0xd3999cfe1575b14ae86a44449b28dd9378afb693be382604fad358b201b3</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:40" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+            <win-def:value datatype="string" mask="false">0xd3999cfe1575b14ae86a44449b28dd9378afb693be382604fad358b201b3</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:41" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+            <win-def:value datatype="string" mask="false">0xd3999cfe1575b14ae86a44449b28dd9378afb693be382604fad358b201b3</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:42" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+            <win-def:value datatype="string" mask="false">0xd3999cfe1575b14ae86a44449b28dd9378afb693be382604fad358b201b3</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:43" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+            <win-def:value datatype="string" mask="false">0xd3999cfe1575b14ae86a44449b28dd9378afb693be382604fad358b201b3</win-def:value>
+        </win-def:registry_state>
+        <win-def:registry_state xmlns:win-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows" id="oval:maec_to_oval:ste:44" operator="AND" version="1">
+            <win-def:name datatype="string" mask="false">Erpi</win-def:name>
+            <win-def:value datatype="string" mask="false">0xd3999cfe1575b14ae86a44449b28dd9378afb693be382604fad358b201b3</win-def:value>
+        </win-def:registry_state>
+    </states>
+</oval_definitions>  <results>
+    <system>
+      <definitions>
+        <definition definition_id="oval:maec_to_oval:def:1" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:1" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:2" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:2" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:3" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:3" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:4" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:4" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:5" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:5" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:6" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:6" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:7" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:7" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:8" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:8" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:9" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:9" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:10" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:10" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:11" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:11" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:12" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:12" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:13" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:13" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:14" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:14" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:15" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:15" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:16" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:16" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:17" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:17" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:18" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:18" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:19" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:19" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:20" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:20" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:21" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:21" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:22" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:22" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:23" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:23" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:24" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:24" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:25" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:25" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:26" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:26" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:27" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:27" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:28" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:28" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:29" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:29" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:30" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:30" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:31" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:31" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:32" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:32" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:33" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:33" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:34" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:34" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:35" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:35" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:36" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:36" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:37" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:37" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:38" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:38" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:39" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:39" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:40" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:40" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:41" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:41" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:42" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:42" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:43" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:43" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:44" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:44" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:45" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:45" version="1"/>
+          </criteria>
+        </definition>
+        <definition definition_id="oval:maec_to_oval:def:46" result="false" version="1">
+          <criteria operator="AND" result="false">
+            <criterion result="false" test_ref="oval:maec_to_oval:tst:46" version="1"/>
+          </criteria>
+        </definition>
+      </definitions>
+      <tests>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:1" version="1">
+          <tested_item item_id="1" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:2" version="1">
+          <tested_item item_id="2" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:3" version="1">
+          <tested_item item_id="3" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:4" version="1">
+          <tested_item item_id="2" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:5" version="1">
+          <tested_item item_id="4" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:6" version="1">
+          <tested_item item_id="1" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:7" version="1">
+          <tested_item item_id="3" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:8" version="1">
+          <tested_item item_id="4" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:9" version="1">
+          <tested_item item_id="5" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:10" version="1">
+          <tested_item item_id="6" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:11" version="1">
+          <tested_item item_id="6" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:12" version="1">
+          <tested_item item_id="6" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:13" version="1">
+          <tested_item item_id="4" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:14" version="1">
+          <tested_item item_id="7" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:15" version="1">
+          <tested_item item_id="7" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:16" version="1">
+          <tested_item item_id="8" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:17" version="1">
+          <tested_item item_id="8" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:18" version="1">
+          <tested_item item_id="9" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:19" version="1">
+          <tested_item item_id="10" result="false"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:20" version="1">
+          <tested_item item_id="7" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:21" version="1">
+          <tested_item item_id="9" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:22" version="1">
+          <tested_item item_id="8" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:23" version="1">
+          <tested_item item_id="8" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:24" version="1">
+          <tested_item item_id="11" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:25" version="1">
+          <tested_item item_id="12" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:26" version="1">
+          <tested_item item_id="12" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:27" version="1">
+          <tested_item item_id="13" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:28" version="1">
+          <tested_item item_id="14" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:29" version="1">
+          <tested_item item_id="14" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:30" version="1">
+          <tested_item item_id="15" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:31" version="1">
+          <tested_item item_id="15" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:32" version="1">
+          <tested_item item_id="16" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:33" version="1">
+          <tested_item item_id="17" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:34" version="1">
+          <tested_item item_id="10" result="false"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:35" version="1">
+          <tested_item item_id="7" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:36" version="1">
+          <tested_item item_id="8" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:37" version="1">
+          <tested_item item_id="18" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:38" version="1">
+          <tested_item item_id="18" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:39" version="1">
+          <tested_item item_id="19" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:40" version="1">
+          <tested_item item_id="19" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:41" version="1">
+          <tested_item item_id="7" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:42" version="1">
+          <tested_item item_id="7" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:43" version="1">
+          <tested_item item_id="7" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:44" version="1">
+          <tested_item item_id="7" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:45" version="1">
+          <tested_item item_id="7" result="not evaluated"/>
+        </test>
+        <test check="at least one" check_existence="at_least_one_exists" result="false" state_operator="AND" test_id="oval:maec_to_oval:tst:46" version="1">
+          <tested_item item_id="7" result="not evaluated"/>
+        </test>
+      </tests>
+      <oval_system_characteristics xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5">
+        <generator>
+          <oval:product_name>cpe:/a:mitre:ovaldi:5.10.1.1</oval:product_name>
+          <oval:product_version>5.10.1 Build: 1</oval:product_version>
+          <oval:schema_version>5.10.1</oval:schema_version>
+          <oval:timestamp>2012-11-15T16:19:08</oval:timestamp>
+          <vendor>The MITRE Corporation</vendor>
+        </generator>
+        <system_info>
+          <os_name>unknown Professional Service Pack 1</os_name>
+          <os_version>6.1.7601</os_version>
+          <architecture>INTEL32</architecture>
+          <primary_host_name>WIN-B3TC3R1JJ4H</primary_host_name>
+          <interfaces>
+            <interface>
+              <interface_name>Intel(R) PRO/1000 MT Network Connection</interface_name>
+              <ip_address>172.16.186.132</ip_address>
+              <mac_address>00-0C-29-04-A7-8B</mac_address>
+            </interface>
+          </interfaces>
+        </system_info>
+        <collected_objects>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:1" version="1">
+            <reference item_ref="1"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:10" version="1">
+            <reference item_ref="4"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:11" version="1">
+            <reference item_ref="5"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:12" version="1">
+            <reference item_ref="6"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:13" version="1">
+            <reference item_ref="6"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:14" version="1">
+            <reference item_ref="6"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:15" version="1">
+            <reference item_ref="4"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:16" version="1">
+            <reference item_ref="7"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:17" version="1">
+            <reference item_ref="7"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:18" version="1">
+            <reference item_ref="8"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:19" version="1">
+            <reference item_ref="8"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:2" version="1">
+            <reference item_ref="2"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:20" version="1">
+            <reference item_ref="9"/>
+          </object>
+          <object flag="complete" id="oval:maec_to_oval:obj:21" version="1">
+            <reference item_ref="10"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:22" version="1">
+            <reference item_ref="7"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:23" version="1">
+            <reference item_ref="9"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:24" version="1">
+            <reference item_ref="8"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:25" version="1">
+            <reference item_ref="8"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:26" version="1">
+            <reference item_ref="11"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:27" version="1">
+            <reference item_ref="12"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:28" version="1">
+            <reference item_ref="12"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:29" version="1">
+            <reference item_ref="13"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:3" version="1">
+            <reference item_ref="3"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:30" version="1">
+            <reference item_ref="14"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:31" version="1">
+            <reference item_ref="14"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:32" version="1">
+            <reference item_ref="15"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:33" version="1">
+            <reference item_ref="15"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:34" version="1">
+            <reference item_ref="16"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:35" version="1">
+            <reference item_ref="17"/>
+          </object>
+          <object flag="complete" id="oval:maec_to_oval:obj:36" version="1">
+            <reference item_ref="10"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:37" version="1">
+            <reference item_ref="7"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:38" version="1">
+            <reference item_ref="8"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:39" version="1">
+            <reference item_ref="18"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:4" version="1">
+            <reference item_ref="2"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:40" version="1">
+            <reference item_ref="18"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:41" version="1">
+            <reference item_ref="19"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:42" version="1">
+            <reference item_ref="19"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:43" version="1">
+            <reference item_ref="7"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:44" version="1">
+            <reference item_ref="7"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:45" version="1">
+            <reference item_ref="7"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:46" version="1">
+            <reference item_ref="7"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:47" version="1">
+            <reference item_ref="7"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:48" version="1">
+            <reference item_ref="7"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:5" version="1">
+            <reference item_ref="4"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:6" version="1">
+            <reference item_ref="1"/>
+          </object>
+          <object flag="does not exist" id="oval:maec_to_oval:obj:7" version="1">
+            <reference item_ref="3"/>
+          </object>
+        </collected_objects>
+        <system_data>
+          <file_item id="1" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <path status="does not exist">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\</path>
+          </file_item>
+          <file_item id="4" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <path status="does not exist">C:\Documents and Settings\Administrator\Application Data\Teeml\</path>
+          </file_item>
+          <file_item id="5" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <path status="does not exist">\Device\Afd\</path>
+          </file_item>
+          <file_item id="6" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <path status="does not exist">\Device\</path>
+          </file_item>
+          <registry_item id="7" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <hive>HKEY_USERS</hive>
+            <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\SOFTWARE\Microsoft\Zopocy</key>
+          </registry_item>
+          <registry_item id="8" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <hive>HKEY_USERS</hive>
+            <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</key>
+          </registry_item>
+          <file_item id="2" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <path status="does not exist">C:\Documents and Settings\Administrator\Application Data\</path>
+          </file_item>
+          <registry_item id="9" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <hive>HKEY_USERS</hive>
+            <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Internet Explorer\Privacy</key>
+          </registry_item>
+          <registry_item id="10" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <hive>HKEY_LOCAL_MACHINE</hive>
+            <key>Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</key>
+            <name>Common AppData</name>
+            <type>reg_sz</type>
+            <value>C:\ProgramData</value>
+          </registry_item>
+          <registry_item id="11" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <hive>HKEY_USERS</hive>
+            <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\0</key>
+          </registry_item>
+          <registry_item id="12" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <hive>HKEY_USERS</hive>
+            <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1</key>
+          </registry_item>
+          <registry_item id="13" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <hive>HKEY_USERS</hive>
+            <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2</key>
+          </registry_item>
+          <file_item id="3" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <path status="does not exist">C:\Documents and Settings\Administrator\Application Data\Ixxoq\</path>
+          </file_item>
+          <registry_item id="14" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <hive>HKEY_USERS</hive>
+            <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3</key>
+          </registry_item>
+          <registry_item id="15" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <hive>HKEY_USERS</hive>
+            <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4</key>
+          </registry_item>
+          <registry_item id="16" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <hive>HKEY_USERS</hive>
+            <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\Currentversion\Run</key>
+          </registry_item>
+          <registry_item id="17" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <hive>HKEY_LOCAL_MACHINE</hive>
+            <key status="does not exist">SYSTEM\CURRENTCONTROLSET\HARDWARE PROFILES\CURRENT\Software\Microsoft\windows\CurrentVersion\Internet Settings</key>
+          </registry_item>
+          <registry_item id="18" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <hive>HKEY_USERS</hive>
+            <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\windows\CurrentVersion\Internet Settings</key>
+          </registry_item>
+          <registry_item id="19" status="does not exist" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows">
+            <hive>HKEY_USERS</hive>
+            <key status="does not exist">S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\windows\CurrentVersion\Internet Settings\Connections</key>
+          </registry_item>
+        </system_data>
+      </oval_system_characteristics>
+    </system>
+  </results>
+
+</oval_results>

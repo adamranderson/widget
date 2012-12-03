@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<oval_system_characteristics xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5" xmlns:ns3="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#aix" xmlns:ns4="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#macos" xmlns:ns5="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#catos" xmlns:linux-sc="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#linux" xmlns:unix-sc="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#unix" xmlns:ind-sc="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#independent" xmlns:ios-sc="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#ios" xmlns:ns10="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#sharepoint" xmlns:solaris-sc="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#solaris" xmlns:ns12="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#pixos" xmlns:ns13="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#hpux" xmlns:ns14="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#apache" xmlns:ns15="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#esx" xmlns:windows-sc="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#windows" xmlns:ns17="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#freebsd" xmlns:ns18="http://www.w3.org/2000/09/xmldsig#" xmlns:oval-def="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oval-res="http://oval.mitre.org/XMLSchema/oval-results-5" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-system-characteristics-5 oval-system-characteristics-schema.xsd http://oval.mitre.org/XMLSchema/oval-common-5 oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-system-characteristics-5#independent independent-system-characteristics-schema.xsd">
+    <generator>
+        <oval:product_name>jOVAL</oval:product_name>
+        <oval:product_version>5.10.1.0</oval:product_version>
+        <oval:schema_version>5.10.1</oval:schema_version>
+        <oval:timestamp>2012-12-02T21:26:48.863-06:00</oval:timestamp>
+    </generator>
+    <system_info>
+        <os_name>DISTRIB_ID=Ubuntu</os_name>
+        <os_version>3.2.0-34-generic</os_version>
+        <architecture>athlon</architecture>
+        <primary_host_name>8440-joval</primary_host_name>
+        <interfaces>
+            <interface>
+                <interface_name>eth0</interface_name>
+                <ip_address>192.168.80.5</ip_address>
+                <mac_address>00:0c:29:8b:a0:78</mac_address>
+            </interface>
+            <interface>
+                <interface_name>eth1</interface_name>
+                <ip_address>10.10.0.126</ip_address>
+                <mac_address>00:0c:29:8b:a0:82</mac_address>
+            </interface>
+            <interface>
+                <interface_name>lo</interface_name>
+                <ip_address>127.0.0.1</ip_address>
+                <mac_address></mac_address>
+            </interface>
+        </interfaces>
+    </system_info>
+    <collected_objects>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:29">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:28">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:27">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:26">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:25">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:24">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:23">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:22">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:21">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:20">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:7">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.FileObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:6">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.FileObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:5">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.FileObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:4">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.FileObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:3">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.FileObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:2">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.FileObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:1">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.FileObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:19">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:18">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:17">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:16">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:48">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:15">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.FileObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:47">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:14">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.FileObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:46">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:13">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.FileObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:45">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:12">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.FileObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:44">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:11">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.FileObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:43">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:10">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.FileObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:42">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:41">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:40">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:39">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:38">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:37">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:36">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:35">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:34">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:33">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:32">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:31">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+        <object flag="not collected" version="1" id="oval:maec_to_oval:obj:30">
+            <message level="warning">No adapter is registered for object of type oval.schemas.definitions.windows.RegistryObject</message>
+        </object>
+    </collected_objects>
+    <system_data/>
+</oval_system_characteristics>

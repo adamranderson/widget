@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: python-maec
+Version: 0.0.1
+Summary: latest set of MAEC and CybOX bindings from MAEC (http://maec.mitre.org) tools repository
+Home-page: https://github.com/MAECProject/Tools
+Author: Roberto Martelloni
+Author-email: rmartelloni@gmail.com
+License: http://maec.mitre.org/about/termsofuse.html, http://cybox.mitre.org/about/termsofuse.html
+Description: Python bindings for MAEC (http://maec.mitre.org) & CybOX (http://cybox.mitre.org/). 
+Keywords: maec CybOX
+Platform: UNKNOWN
